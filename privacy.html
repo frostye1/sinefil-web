@@ -1,0 +1,200 @@
+<!doctype html>
+<!-- Bu dosya scripts/build-web-pages.mjs ile üretilir; elle düzenleme. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy · Sinefil</title>
+  <style>
+    :root { --bg: #0b0b0d; --surface: #17171b; --text: #f2f2f4; --muted: #9a9aa3; --line: #2a2a30; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+    .brand { font-weight: 800; letter-spacing: -0.5px; font-size: 22px; margin-bottom: 8px; }
+    nav { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 28px; }
+    nav a { color: var(--muted); text-decoration: none; font-size: 13px; padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; }
+    nav a.on { color: var(--bg); background: var(--text); border-color: var(--text); }
+    h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; }
+    h2 { font-size: 19px; margin: 28px 0 8px; }
+    p, li { color: #d6d6db; }
+    ul, ol { padding-left: 22px; }
+    li { margin: 6px 0; }
+    .muted { color: var(--muted); font-size: 14px; }
+    a { color: var(--text); }
+    section[data-lang] { display: none; }
+    section[data-lang="en"] { display: block; }
+    html.js section[data-lang] { display: none; }
+    html.js section[data-lang].on { display: block; }
+  </style>
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<main>
+  <div class="brand">Sinefil</div>
+  <nav><a href="?lang=en" data-lang="en">English</a><a href="?lang=tr" data-lang="tr">Türkçe</a><a href="?lang=es" data-lang="es">Español</a><a href="?lang=pt" data-lang="pt">Português</a><a href="?lang=de" data-lang="de">Deutsch</a><a href="?lang=fr" data-lang="fr">Français</a><a href="?lang=ko" data-lang="ko">한국어</a><a href="?lang=ja" data-lang="ja">日本語</a></nav>
+  <section data-lang="en" lang="en" data-title="Privacy Policy · Sinefil">
+    <h1>Privacy Policy</h1>
+    <p class="muted">Last updated: October 27, 2026</p>
+    <p>Sinefil is an app where movie and TV lovers log, share and talk about what they watch. This policy explains what information we collect and why, how we store it and what your rights are. Under the Turkish Personal Data Protection Law No. 6698 (KVKK), Sinefil is the data controller.</p>
+    <h2>Information we collect</h2>
+    <ul><li>Account information: your email address, username, display name and password (your password is stored encrypted; no one can see it).</li><li>Profile: your profile and cover photos and your short bio.</li><li>Content you create in the app: your posts, comments, likes, poll votes, direct and group messages, and predictions.</li><li>Your watch information: your watch log, ratings, notes, favorites, titles in your calendar, and the people you follow and block.</li><li>Content you report and the reason for the report.</li><li>Settings that stay on your phone: your reminder preferences and scheduled reminders are kept only on your phone and are not sent to our servers.</li><li>We do not collect your location, contacts or advertising ID.</li></ul>
+    <h2>How we use your information</h2>
+    <ul><li>To create your account and let you sign in.</li><li>To show your posts, messages and profile to other users (direct and group messages are visible only to members of that chat).</li><li>To calculate film taste matches and suggest people and titles you may like.</li><li>To show you notifications about likes, comments, follows and mentions.</li><li>To prevent abuse (spam, harassment) and review reported content.</li><li>We do not sell your information, use it for advertising or share it with advertising companies.</li></ul>
+    <h2>Who we share information with</h2>
+    <ul><li>Supabase: the infrastructure provider where accounts, content and photos are stored. Data is transferred over encrypted connections.</li><li>TMDB (The Movie Database): movie, TV and cast information comes from here. We do not send your personal information to TMDB; only the title you search for or open is requested.</li><li>&quot;Where to watch&quot; information comes from JustWatch via TMDB.</li><li>Competent authorities, if required by law.</li></ul>
+    <h2>Retention and deletion</h2>
+    <ul><li>Your information is kept for as long as your account is open.</li><li>You can delete any post, comment or message at any time.</li><li>With Settings &gt; Delete my account you can permanently delete your account and all of the information listed above. Deletion happens immediately and cannot be undone.</li></ul>
+    <h2>Your rights</h2>
+    <ul><li>Under Article 11 of the KVKK you have the right to learn whether your data is processed, request information, ask for it to be corrected or deleted, and object.</li><li>You can send your requests to <a href="mailto:frostye2177@gmail.com">frostye2177@gmail.com</a>.</li></ul>
+    <h2>Children</h2>
+    <ul><li>Sinefil is not intended for children under 13; if you are under 13, do not create an account.</li></ul>
+    <h2>Changes</h2>
+    <ul><li>If we update this policy, we will publish the new text in the app and change its date. We will announce important changes in the app.</li></ul>
+  </section>
+  <section data-lang="tr" lang="tr" data-title="Gizlilik Politikası · Sinefil">
+    <h1>Gizlilik Politikası</h1>
+    <p class="muted">Son güncelleme: 27 Ekim 2026</p>
+    <p>Sinefil, film ve dizi severlerin izlediklerini kaydettiği, paylaştığı ve sohbet ettiği bir uygulamadır. Bu metin hangi bilgileri neden topladığımızı, nasıl sakladığımızı ve haklarını anlatır. 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında veri sorumlusu Sinefil'dir.</p>
+    <h2>Topladığımız bilgiler</h2>
+    <ul><li>Hesap bilgileri: e-posta adresin, kullanıcı adın, görünen adın ve şifren (şifren şifrelenmiş olarak saklanır, kimse göremez).</li><li>Profil: profil ve kapak fotoğrafın, kısa tanıtım yazın.</li><li>Uygulamada oluşturduğun içerik: paylaşımların, yorumların, beğenilerin, anket oyların, birebir ve grup mesajların, tahminlerin.</li><li>İzleme bilgilerin: izleme günlüğün, puanların, notların, favorilerin, takvimine eklediğin yapımlar, takip ettiğin ve engellediğin kişiler.</li><li>Bildirdiğin içerikler ve bildirim sebebin.</li><li>Telefonunda kalan ayarlar: hatırlatma tercihlerin ve kurulu hatırlatmaların yalnızca telefonunda tutulur, sunucuya gönderilmez.</li><li>Konum, rehber, reklam kimliği gibi bilgileri toplamayız.</li></ul>
+    <h2>Bilgileri ne için kullanıyoruz</h2>
+    <ul><li>Hesabını oluşturmak ve giriş yapmanı sağlamak.</li><li>Paylaşımlarını, mesajlarını ve profilini diğer kullanıcılara göstermek (birebir ve grup mesajlarını yalnızca o sohbetin üyeleri görür).</li><li>Film zevki uyumunu hesaplamak, sana uygun kişileri ve yapımları önermek.</li><li>Beğeni, yorum, takip ve etiket bildirimlerini sana göstermek.</li><li>Kötüye kullanımı (spam, taciz) önlemek ve bildirilen içerikleri incelemek.</li><li>Bilgilerini satmayız, reklam için kullanmayız ve reklam şirketleriyle paylaşmayız.</li></ul>
+    <h2>Bilgileri kimlerle paylaşıyoruz</h2>
+    <ul><li>Supabase: hesapların, içeriklerin ve fotoğrafların saklandığı altyapı sağlayıcımız. Veriler şifreli bağlantıyla aktarılır.</li><li>TMDB (The Movie Database): film, dizi ve oyuncu bilgileri buradan gelir. TMDB'ye kişisel bilgilerini göndermeyiz; yalnızca aradığın ya da açtığın yapımın bilgisi istenir.</li><li>&quot;Nerede izlenir?&quot; bilgisi JustWatch kaynaklıdır ve TMDB üzerinden alınır.</li><li>Yasal bir zorunluluk olursa yetkili makamlarla.</li></ul>
+    <h2>Saklama ve silme</h2>
+    <ul><li>Bilgilerin hesabın açık olduğu sürece saklanır.</li><li>Bir paylaşımı, yorumu ya da mesajı istediğin zaman silebilirsin.</li><li>Ayarlar &gt; Hesabımı sil ile hesabını ve yukarıda sayılan bütün bilgilerini kalıcı olarak silebilirsin. Silme hemen gerçekleşir ve geri alınamaz.</li></ul>
+    <h2>Hakların</h2>
+    <ul><li>KVKK'nın 11. maddesi uyarınca bilgilerinin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltilmesini ya da silinmesini isteme ve itiraz etme hakların vardır.</li><li>Taleplerin için <a href="mailto:frostye2177@gmail.com">frostye2177@gmail.com</a> adresine yazabilirsin.</li></ul>
+    <h2>Çocuklar</h2>
+    <ul><li>Sinefil 13 yaş altındaki çocuklara yönelik değildir; 13 yaşından küçükseniz hesap açmayın.</li></ul>
+    <h2>Değişiklikler</h2>
+    <ul><li>Bu politikayı güncellersek yeni metni uygulamada yayınlar ve tarihini değiştiririz. Önemli değişiklikleri uygulama içinde duyururuz.</li></ul>
+  </section>
+  <section data-lang="es" lang="es" data-title="Política de privacidad · Sinefil">
+    <h1>Política de privacidad</h1>
+    <p class="muted">Última actualización: 27 de octubre de 2026</p>
+    <p>Sinefil es una app donde los amantes del cine y las series registran, comparten y comentan lo que ven. Esta política explica qué información recopilamos y por qué, cómo la guardamos y cuáles son tus derechos. Conforme a la Ley turca n.º 6698 de Protección de Datos Personales (KVKK), Sinefil es el responsable del tratamiento.</p>
+    <h2>Información que recopilamos</h2>
+    <ul><li>Datos de la cuenta: tu correo electrónico, nombre de usuario, nombre visible y contraseña (la contraseña se guarda cifrada; nadie puede verla).</li><li>Perfil: tus fotos de perfil y portada y tu breve presentación.</li><li>Contenido que creas en la app: tus publicaciones, comentarios, me gusta, votos en encuestas, mensajes directos y de grupo, y predicciones.</li><li>Tu información de visionado: tu registro, valoraciones, notas, favoritos, los títulos de tu calendario y las personas que sigues y bloqueas.</li><li>El contenido que denuncias y el motivo de la denuncia.</li><li>Ajustes que se quedan en tu teléfono: tus preferencias de recordatorios y los recordatorios programados se guardan solo en tu teléfono y no se envían a nuestros servidores.</li><li>No recopilamos tu ubicación, tus contactos ni tu identificador publicitario.</li></ul>
+    <h2>Para qué usamos la información</h2>
+    <ul><li>Para crear tu cuenta y permitirte iniciar sesión.</li><li>Para mostrar tus publicaciones, mensajes y perfil a otros usuarios (los mensajes directos y de grupo solo los ven los miembros de ese chat).</li><li>Para calcular la afinidad de gustos y sugerirte personas y títulos que te puedan gustar.</li><li>Para mostrarte notificaciones de me gusta, comentarios, seguimientos y menciones.</li><li>Para prevenir abusos (spam, acoso) y revisar el contenido denunciado.</li><li>No vendemos tu información, no la usamos para publicidad ni la compartimos con empresas de publicidad.</li></ul>
+    <h2>Con quién compartimos la información</h2>
+    <ul><li>Supabase: el proveedor de infraestructura donde se guardan las cuentas, el contenido y las fotos. Los datos se transmiten mediante conexiones cifradas.</li><li>TMDB (The Movie Database): de aquí provienen los datos de películas, series y reparto. No enviamos tu información personal a TMDB; solo se solicita el título que buscas o abres.</li><li>La información de &quot;Dónde ver&quot; procede de JustWatch a través de TMDB.</li><li>Las autoridades competentes, si la ley lo exige.</li></ul>
+    <h2>Conservación y eliminación</h2>
+    <ul><li>Tu información se conserva mientras tu cuenta esté abierta.</li><li>Puedes eliminar cualquier publicación, comentario o mensaje cuando quieras.</li><li>Con Ajustes &gt; Eliminar mi cuenta puedes borrar para siempre tu cuenta y toda la información indicada arriba. La eliminación es inmediata y no se puede deshacer.</li></ul>
+    <h2>Tus derechos</h2>
+    <ul><li>Según el artículo 11 de la KVKK tienes derecho a saber si se tratan tus datos, solicitar información, pedir su corrección o eliminación y oponerte.</li><li>Puedes enviar tus solicitudes a <a href="mailto:frostye2177@gmail.com">frostye2177@gmail.com</a>.</li></ul>
+    <h2>Menores</h2>
+    <ul><li>Sinefil no está dirigida a menores de 13 años; si tienes menos de 13 años, no crees una cuenta.</li></ul>
+    <h2>Cambios</h2>
+    <ul><li>Si actualizamos esta política, publicaremos el nuevo texto en la app y cambiaremos su fecha. Anunciaremos los cambios importantes dentro de la app.</li></ul>
+  </section>
+  <section data-lang="pt" lang="pt" data-title="Política de Privacidade · Sinefil">
+    <h1>Política de Privacidade</h1>
+    <p class="muted">Última atualização: 27 de outubro de 2026</p>
+    <p>O Sinefil é um app onde amantes de filmes e séries registram, compartilham e conversam sobre o que assistem. Esta política explica quais informações coletamos e por quê, como as armazenamos e quais são seus direitos. Nos termos da Lei turca de Proteção de Dados Pessoais nº 6698 (KVKK), o Sinefil é o controlador dos dados.</p>
+    <h2>Informações que coletamos</h2>
+    <ul><li>Dados da conta: seu e-mail, nome de usuário, nome de exibição e senha (a senha é armazenada criptografada; ninguém pode vê-la).</li><li>Perfil: suas fotos de perfil e de capa e sua bio curta.</li><li>Conteúdo que você cria no app: publicações, comentários, curtidas, votos em enquetes, mensagens diretas e de grupo e palpites.</li><li>Suas informações de visualização: histórico, notas, anotações, favoritos, títulos do seu calendário e as pessoas que você segue e bloqueia.</li><li>Conteúdo que você denuncia e o motivo da denúncia.</li><li>Configurações que ficam no seu celular: preferências e lembretes agendados ficam apenas no seu aparelho e não são enviados aos nossos servidores.</li><li>Não coletamos sua localização, contatos nem ID de publicidade.</li></ul>
+    <h2>Como usamos suas informações</h2>
+    <ul><li>Para criar sua conta e permitir que você entre.</li><li>Para mostrar suas publicações, mensagens e perfil a outros usuários (mensagens diretas e de grupo só são visíveis aos membros da conversa).</li><li>Para calcular a compatibilidade de gosto e sugerir pessoas e títulos de que você pode gostar.</li><li>Para enviar notificações sobre curtidas, comentários, novos seguidores e menções.</li><li>Para evitar abusos (spam, assédio) e analisar conteúdo denunciado.</li><li>Não vendemos suas informações, não as usamos para publicidade nem as compartilhamos com empresas de publicidade.</li></ul>
+    <h2>Com quem compartilhamos</h2>
+    <ul><li>Supabase: o provedor de infraestrutura onde contas, conteúdo e fotos são armazenados. Os dados trafegam por conexões criptografadas.</li><li>TMDB (The Movie Database): as informações de filmes, séries e elenco vêm daqui. Não enviamos seus dados pessoais ao TMDB; só é solicitado o título que você busca ou abre.</li><li>As informações de &quot;onde assistir&quot; vêm do JustWatch, via TMDB.</li><li>Autoridades competentes, quando exigido por lei.</li></ul>
+    <h2>Retenção e exclusão</h2>
+    <ul><li>Suas informações são mantidas enquanto sua conta estiver aberta.</li><li>Você pode excluir qualquer publicação, comentário ou mensagem a qualquer momento.</li><li>Em Configurações &gt; Excluir minha conta você exclui permanentemente sua conta e todas as informações acima. A exclusão é imediata e não pode ser desfeita.</li></ul>
+    <h2>Seus direitos</h2>
+    <ul><li>Pelo artigo 11 da KVKK, você tem o direito de saber se seus dados são tratados, pedir informações, solicitar correção ou exclusão e se opor ao tratamento.</li><li>Envie seus pedidos para <a href="mailto:frostye2177@gmail.com">frostye2177@gmail.com</a>.</li></ul>
+    <h2>Crianças</h2>
+    <ul><li>O Sinefil não se destina a menores de 13 anos; se você tem menos de 13 anos, não crie uma conta.</li></ul>
+    <h2>Alterações</h2>
+    <ul><li>Se atualizarmos esta política, publicaremos o novo texto no app e mudaremos a data. Mudanças importantes serão avisadas no app.</li></ul>
+  </section>
+  <section data-lang="de" lang="de" data-title="Datenschutzerklärung · Sinefil">
+    <h1>Datenschutzerklärung</h1>
+    <p class="muted">Zuletzt aktualisiert: 27. Oktober 2026</p>
+    <p>Sinefil ist eine App, in der Film- und Serienfans festhalten, teilen und besprechen, was sie schauen. Diese Erklärung beschreibt, welche Daten wir aus welchem Grund erheben, wie wir sie speichern und welche Rechte du hast. Verantwortlicher im Sinne des türkischen Datenschutzgesetzes Nr. 6698 (KVKK) ist Sinefil.</p>
+    <h2>Welche Daten wir erheben</h2>
+    <ul><li>Kontodaten: deine E-Mail-Adresse, dein Benutzername, Anzeigename und Passwort (das Passwort wird verschlüsselt gespeichert; niemand kann es sehen).</li><li>Profil: dein Profil- und Titelbild und deine kurze Bio.</li><li>Inhalte, die du in der App erstellst: Beiträge, Kommentare, Likes, Umfragestimmen, Direkt- und Gruppennachrichten sowie Tipps.</li><li>Deine Seh-Daten: Verlauf, Bewertungen, Notizen, Favoriten, Titel in deinem Kalender sowie Personen, denen du folgst oder die du blockierst.</li><li>Inhalte, die du meldest, und der Grund der Meldung.</li><li>Einstellungen auf deinem Handy: Erinnerungs-Einstellungen und geplante Erinnerungen bleiben nur auf deinem Gerät und werden nicht an unsere Server gesendet.</li><li>Wir erheben weder deinen Standort noch deine Kontakte oder deine Werbe-ID.</li></ul>
+    <h2>Wofür wir deine Daten nutzen</h2>
+    <ul><li>Um dein Konto anzulegen und dich anmelden zu lassen.</li><li>Um deine Beiträge, Nachrichten und dein Profil anderen zu zeigen (Direkt- und Gruppennachrichten sehen nur die Mitglieder des Chats).</li><li>Um Geschmacks-Übereinstimmungen zu berechnen und dir Personen und Titel vorzuschlagen.</li><li>Um dich über Likes, Kommentare, neue Follower und Erwähnungen zu benachrichtigen.</li><li>Um Missbrauch (Spam, Belästigung) zu verhindern und gemeldete Inhalte zu prüfen.</li><li>Wir verkaufen deine Daten nicht, nutzen sie nicht für Werbung und geben sie nicht an Werbefirmen weiter.</li></ul>
+    <h2>An wen wir Daten weitergeben</h2>
+    <ul><li>Supabase: der Infrastruktur-Anbieter, bei dem Konten, Inhalte und Fotos gespeichert werden. Die Übertragung erfolgt verschlüsselt.</li><li>TMDB (The Movie Database): Film-, Serien- und Besetzungsinfos stammen von dort. Wir senden keine persönlichen Daten an TMDB; abgefragt wird nur der Titel, den du suchst oder öffnest.</li><li>Die Angaben „Wo ansehen“ stammen über TMDB von JustWatch.</li><li>Zuständige Behörden, wenn das Gesetz es verlangt.</li></ul>
+    <h2>Speicherung und Löschung</h2>
+    <ul><li>Deine Daten werden gespeichert, solange dein Konto besteht.</li><li>Du kannst jeden Beitrag, Kommentar und jede Nachricht jederzeit löschen.</li><li>Unter Einstellungen &gt; Mein Konto löschen kannst du dein Konto und alle oben genannten Daten endgültig löschen. Die Löschung erfolgt sofort und kann nicht rückgängig gemacht werden.</li></ul>
+    <h2>Deine Rechte</h2>
+    <ul><li>Nach Artikel 11 KVKK hast du das Recht zu erfahren, ob deine Daten verarbeitet werden, Auskunft zu verlangen, Berichtigung oder Löschung zu fordern und zu widersprechen.</li><li>Anfragen kannst du an <a href="mailto:frostye2177@gmail.com">frostye2177@gmail.com</a> senden.</li></ul>
+    <h2>Kinder</h2>
+    <ul><li>Sinefil ist nicht für Kinder unter 13 Jahren gedacht; bist du jünger als 13, erstelle kein Konto.</li></ul>
+    <h2>Änderungen</h2>
+    <ul><li>Wenn wir diese Erklärung ändern, veröffentlichen wir den neuen Text in der App und aktualisieren das Datum. Wichtige Änderungen kündigen wir in der App an.</li></ul>
+  </section>
+  <section data-lang="fr" lang="fr" data-title="Politique de confidentialité · Sinefil">
+    <h1>Politique de confidentialité</h1>
+    <p class="muted">Dernière mise à jour: 27 octobre 2026</p>
+    <p>Sinefil est une application où les passionnés de films et de séries notent, partagent et commentent ce qu'ils regardent. Cette politique explique quelles données nous collectons et pourquoi, comment nous les conservons et quels sont vos droits. Au sens de la loi turque n° 6698 sur la protection des données personnelles (KVKK), Sinefil est le responsable du traitement.</p>
+    <h2>Données collectées</h2>
+    <ul><li>Données du compte : votre adresse e-mail, nom d'utilisateur, nom affiché et mot de passe (le mot de passe est stocké chiffré ; personne ne peut le voir).</li><li>Profil : vos photos de profil et de couverture et votre courte bio.</li><li>Contenus que vous créez dans l'application : publications, commentaires, j'aime, votes aux sondages, messages privés et de groupe, pronostics.</li><li>Vos informations de visionnage : historique, notes, remarques, favoris, titres de votre calendrier, personnes que vous suivez et bloquez.</li><li>Les contenus que vous signalez et le motif du signalement.</li><li>Réglages conservés sur votre téléphone : vos préférences et rappels programmés restent uniquement sur votre appareil et ne sont pas envoyés à nos serveurs.</li><li>Nous ne collectons ni votre position, ni vos contacts, ni votre identifiant publicitaire.</li></ul>
+    <h2>Utilisation de vos données</h2>
+    <ul><li>Pour créer votre compte et vous permettre de vous connecter.</li><li>Pour montrer vos publications, messages et profil aux autres utilisateurs (les messages privés et de groupe ne sont visibles que par les membres de la conversation).</li><li>Pour calculer les affinités de goût et vous suggérer des personnes et des titres.</li><li>Pour vous notifier des j'aime, commentaires, nouveaux abonnés et mentions.</li><li>Pour prévenir les abus (spam, harcèlement) et examiner les contenus signalés.</li><li>Nous ne vendons pas vos données, ne les utilisons pas à des fins publicitaires et ne les partageons pas avec des régies publicitaires.</li></ul>
+    <h2>Avec qui nous partageons</h2>
+    <ul><li>Supabase : le fournisseur d'infrastructure qui héberge comptes, contenus et photos. Les données transitent par des connexions chiffrées.</li><li>TMDB (The Movie Database) : les informations sur les films, séries et distributions en proviennent. Nous n'envoyons pas vos données personnelles à TMDB ; seul le titre que vous recherchez ou ouvrez est demandé.</li><li>Les informations « Où regarder » proviennent de JustWatch via TMDB.</li><li>Les autorités compétentes, si la loi l’exige.</li></ul>
+    <h2>Conservation et suppression</h2>
+    <ul><li>Vos données sont conservées tant que votre compte est ouvert.</li><li>Vous pouvez supprimer à tout moment une publication, un commentaire ou un message.</li><li>Dans Réglages &gt; Supprimer mon compte, vous pouvez supprimer définitivement votre compte et toutes les données ci-dessus. La suppression est immédiate et irréversible.</li></ul>
+    <h2>Vos droits</h2>
+    <ul><li>Selon l'article 11 de la KVKK, vous avez le droit de savoir si vos données sont traitées, de demander des informations, d'en demander la rectification ou la suppression et de vous y opposer.</li><li>Envoyez vos demandes à <a href="mailto:frostye2177@gmail.com">frostye2177@gmail.com</a>.</li></ul>
+    <h2>Enfants</h2>
+    <ul><li>Sinefil n'est pas destiné aux enfants de moins de 13 ans ; si vous avez moins de 13 ans, ne créez pas de compte.</li></ul>
+    <h2>Modifications</h2>
+    <ul><li>Si nous modifions cette politique, nous publierons le nouveau texte dans l'application et changerons sa date. Les changements importants seront annoncés dans l'application.</li></ul>
+  </section>
+  <section data-lang="ko" lang="ko" data-title="개인정보 처리방침 · Sinefil">
+    <h1>개인정보 처리방침</h1>
+    <p class="muted">최종 업데이트: 2026년 10월 27일</p>
+    <p>Sinefil은 영화와 드라마 팬들이 본 작품을 기록하고 공유하며 이야기하는 앱입니다. 이 방침은 어떤 정보를 왜 수집하는지, 어떻게 보관하는지, 그리고 이용자의 권리가 무엇인지 설명합니다. 튀르키예 개인정보보호법 제6698호(KVKK)에 따른 개인정보 처리자는 Sinefil입니다.</p>
+    <h2>수집하는 정보</h2>
+    <ul><li>계정 정보: 이메일 주소, 사용자 이름, 표시 이름, 비밀번호(비밀번호는 암호화되어 저장되며 누구도 볼 수 없습니다).</li><li>프로필: 프로필 사진, 커버 사진, 짧은 소개.</li><li>앱에서 만든 콘텐츠: 게시물, 댓글, 좋아요, 투표, 개인 및 그룹 메시지, 예측.</li><li>시청 정보: 시청 기록, 평점, 메모, 즐겨찾기, 캘린더의 작품, 팔로우하거나 차단한 사람.</li><li>신고한 콘텐츠와 신고 사유.</li><li>휴대폰에만 저장되는 설정: 알림 설정과 예약된 알림은 기기에만 저장되며 서버로 전송되지 않습니다.</li><li>위치, 연락처, 광고 ID는 수집하지 않습니다.</li></ul>
+    <h2>정보 이용 목적</h2>
+    <ul><li>계정을 만들고 로그인할 수 있도록 하기 위해.</li><li>게시물, 메시지, 프로필을 다른 이용자에게 보여 주기 위해(개인 및 그룹 메시지는 해당 대화 참여자만 볼 수 있습니다).</li><li>취향 일치도를 계산하고 좋아할 만한 사람과 작품을 추천하기 위해.</li><li>좋아요, 댓글, 새 팔로워, 멘션 알림을 보내기 위해.</li><li>스팸·괴롭힘 등 악용을 막고 신고된 콘텐츠를 검토하기 위해.</li><li>정보를 판매하거나 광고에 사용하거나 광고 회사와 공유하지 않습니다.</li></ul>
+    <h2>정보 제공 대상</h2>
+    <ul><li>Supabase: 계정, 콘텐츠, 사진이 저장되는 인프라 제공업체. 데이터는 암호화된 연결로 전송됩니다.</li><li>TMDB(The Movie Database): 영화, 드라마, 출연진 정보의 출처입니다. 개인정보는 TMDB에 보내지 않으며, 검색하거나 연 작품만 요청합니다.</li><li>&quot;시청 가능한 곳&quot; 정보는 TMDB를 통해 JustWatch에서 제공됩니다.</li><li>법률이 요구하는 경우 관계 당국.</li></ul>
+    <h2>보관 및 삭제</h2>
+    <ul><li>정보는 계정이 유지되는 동안 보관됩니다.</li><li>게시물, 댓글, 메시지는 언제든지 삭제할 수 있습니다.</li><li>설정 &gt; 계정 삭제에서 계정과 위의 모든 정보를 영구적으로 삭제할 수 있습니다. 삭제는 즉시 이루어지며 되돌릴 수 없습니다.</li></ul>
+    <h2>이용자의 권리</h2>
+    <ul><li>KVKK 제11조에 따라 개인정보 처리 여부를 확인하고, 정보를 요청하며, 정정·삭제를 요구하고, 처리에 이의를 제기할 권리가 있습니다.</li><li>요청은 <a href="mailto:frostye2177@gmail.com">frostye2177@gmail.com</a>로 보내 주세요.</li></ul>
+    <h2>아동</h2>
+    <ul><li>Sinefil은 13세 미만 아동을 대상으로 하지 않습니다. 13세 미만이라면 계정을 만들지 마세요.</li></ul>
+    <h2>변경</h2>
+    <ul><li>이 방침을 변경하면 새 내용을 앱에 게시하고 날짜를 갱신합니다. 중요한 변경은 앱에서 안내합니다.</li></ul>
+  </section>
+  <section data-lang="ja" lang="ja" data-title="プライバシーポリシー · Sinefil">
+    <h1>プライバシーポリシー</h1>
+    <p class="muted">最終更新: 2026年10月27日</p>
+    <p>Sinefilは、映画やドラマが好きな人が観た作品を記録し、共有し、語り合うアプリです。本ポリシーでは、どの情報をなぜ収集するのか、どのように保管するのか、そして利用者の権利について説明します。トルコ個人データ保護法第6698号（KVKK）上のデータ管理者はSinefilです。</p>
+    <h2>収集する情報</h2>
+    <ul><li>アカウント情報：メールアドレス、ユーザー名、表示名、パスワード（パスワードは暗号化して保存され、誰も見ることはできません）。</li><li>プロフィール：プロフィール写真、カバー写真、短い自己紹介。</li><li>アプリで作成したコンテンツ：投稿、コメント、いいね、投票、個人・グループメッセージ、予想。</li><li>視聴情報：視聴記録、評価、メモ、お気に入り、カレンダーの作品、フォロー・ブロックしている人。</li><li>報告したコンテンツとその理由。</li><li>端末内だけに保存される設定：リマインダーの設定と予約済みのリマインダーは端末内にのみ保存され、サーバーには送信されません。</li><li>位置情報、連絡先、広告IDは収集しません。</li></ul>
+    <h2>情報の利用目的</h2>
+    <ul><li>アカウントを作成し、ログインできるようにするため。</li><li>投稿、メッセージ、プロフィールを他の利用者に表示するため（個人・グループメッセージはその会話の参加者だけが見られます）。</li><li>好みの一致度を計算し、気に入りそうな人や作品をおすすめするため。</li><li>いいね、コメント、新しいフォロワー、メンションの通知を送るため。</li><li>スパムや嫌がらせなどの悪用を防ぎ、報告されたコンテンツを確認するため。</li><li>情報を販売したり、広告に利用したり、広告会社と共有したりすることはありません。</li></ul>
+    <h2>情報の提供先</h2>
+    <ul><li>Supabase：アカウント、コンテンツ、写真を保存するインフラ事業者。データは暗号化された通信で送信されます。</li><li>TMDB（The Movie Database）：映画、ドラマ、キャストの情報はここから取得します。個人情報はTMDBに送信せず、検索または表示した作品のみを問い合わせます。</li><li>「配信サービス」の情報はTMDB経由でJustWatchから提供されます。</li><li>法令で求められた場合の関係当局。</li></ul>
+    <h2>保管と削除</h2>
+    <ul><li>情報はアカウントが存在する間保管されます。</li><li>投稿、コメント、メッセージはいつでも削除できます。</li><li>設定 &gt; アカウントを削除 から、アカウントと上記のすべての情報を完全に削除できます。削除は即時に行われ、元に戻せません。</li></ul>
+    <h2>利用者の権利</h2>
+    <ul><li>KVKK第11条に基づき、データが処理されているかを知り、情報を求め、訂正・削除を求め、異議を申し立てる権利があります。</li><li>ご請求は <a href="mailto:frostye2177@gmail.com">frostye2177@gmail.com</a> までお送りください。</li></ul>
+    <h2>子ども</h2>
+    <ul><li>Sinefilは13歳未満の子どもを対象としていません。13歳未満の方はアカウントを作成しないでください。</li></ul>
+    <h2>変更</h2>
+    <ul><li>本ポリシーを更新した場合、新しい内容をアプリに掲載し日付を更新します。重要な変更はアプリ内でお知らせします。</li></ul>
+  </section>
+</main>
+<script>
+  (function () {
+    var langs = ["en","tr","es","pt","de","fr","ko","ja"];
+    var q = new URLSearchParams(location.search).get('lang');
+    var nav = (navigator.languages || [navigator.language || 'en']).map(function (x) { return x.slice(0, 2).toLowerCase(); });
+    var lang = langs.indexOf(q) >= 0 ? q : nav.filter(function (x) { return langs.indexOf(x) >= 0; })[0] || 'en';
+    document.documentElement.lang = lang;
+    document.querySelectorAll('section[data-lang="' + lang + '"]').forEach(function (s) { s.classList.add('on'); document.title = s.dataset.title; });
+    document.querySelectorAll('nav a[data-lang="' + lang + '"]').forEach(function (a) { a.classList.add('on'); });
+  })();
+</script>
+</body>
+</html>
