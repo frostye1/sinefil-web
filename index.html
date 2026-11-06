@@ -8,8 +8,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sinefil</title>
-  <meta property="og:title" content="Sinefil" />
+  <title>Reelog</title>
+  <meta property="og:title" content="Reelog" />
   <meta property="og:description" content="Film ve dizileri takip et, arkadaşlarınla konuş." />
   <style>
     :root { --bg: #0b0b0d; --surface: #17171b; --text: #f2f2f4; --muted: #9a9aa3; --accent: #d9d9de; --on-accent: #0b0b0d; }
@@ -25,25 +25,25 @@
 </head>
 <body>
   <main>
-    <h1>Sinefil</h1>
+    <h1>Reelog</h1>
     <p id="msg">Uygulama açılıyor…</p>
-    <a class="btn" id="open" href="#">Sinefil'de aç</a>
-    <a class="alt" id="store" href="https://play.google.com/store/apps/details?id=com.frostye1.sinefil">Uygulamayı indir</a>
+    <a class="btn" id="open" href="#">Reelog'da aç</a>
+    <a class="alt" id="store" href="https://play.google.com/store/apps/details?id=com.frostye1.reelog">Uygulamayı indir</a>
   </main>
   <script>
-    var PACKAGE = 'com.frostye1.sinefil';
+    var PACKAGE = 'com.frostye1.reelog';
     var STORE = 'https://play.google.com/store/apps/details?id=' + PACKAGE;
     var to = new URLSearchParams(location.search).get('to') || '';
     // Yalnızca uygulamadaki sayfalara izin ver
     if (!/^(title\/(movie|tv)\/\d+|post\/\d+|user\/[0-9a-f-]{36})$/.test(to)) to = '';
-    var app = 'sinefil://' + to;
+    var app = 'reelog://' + to;
     var isAndroid = /android/i.test(navigator.userAgent);
     var link = isAndroid
-      ? 'intent://' + to + '#Intent;scheme=sinefil;package=' + PACKAGE + ';S.browser_fallback_url=' + encodeURIComponent(STORE) + ';end'
+      ? 'intent://' + to + '#Intent;scheme=reelog;package=' + PACKAGE + ';S.browser_fallback_url=' + encodeURIComponent(STORE) + ';end'
       : app;
     document.getElementById('open').href = link;
     if (isAndroid) location.replace(link);
-    else document.getElementById('msg').textContent = 'Bu bağlantı Sinefil uygulamasında açılır.';
+    else document.getElementById('msg').textContent = 'Bu bağlantı Reelog uygulamasında açılır.';
   </script>
 </body>
 </html>
